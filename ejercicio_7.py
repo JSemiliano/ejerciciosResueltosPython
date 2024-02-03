@@ -8,4 +8,4 @@ if numero > 0:
         print(str(cont)+"",end=" ")
         cont = cont-2
 else:
-    print("El número debe ser positivo")        
+    print("El número debe ser positivo dije, que parte no entendes?")        
