@@ -14,39 +14,18 @@ descuento=0
 edad=int(input("Ingrese la edad "))
 sueldo=float(input("Ingrese el sueldo "))
 
-if edad<=0 and edad >=100:
+if edad <= 0 and edad >= 80:
     print("Ingrese un valor valido")
-
 elif sueldo < 10000:
-    if edad>LIMITE_EDAD:
         descuento = descuento+((PORCENTAJE_DESCUENTO1/100)*sueldo)
-        print("El monto a descontar es:",descuento,"dolares")
-    elif edad<=LIMITE_EDAD:
-        descuento = descuento+((PORCENTAJE_DESCUENTO1/100)*sueldo)
-        descuento = descuento+((DESCUENTO_ADICIONAL/100)*descuento)
-        print("El monto a descontar es:",descuento,"dolares")
 elif sueldo < 20000:
-    if edad>LIMITE_EDAD:
-        descuento = descuento+((PORCENTAJE_DESCUENTO2/100)*sueldo)
-        print("El monto a descontar es:",descuento,"dolares")
-    elif edad<=LIMITE_EDAD:
-        descuento = descuento+((PORCENTAJE_DESCUENTO2/100)*sueldo)
-        descuento = descuento+((DESCUENTO_ADICIONAL/100)*descuento)
-        print("El monto a descontar es:",descuento,"dolares")
+        descuento = descuento+((PORCENTAJE_DESCUENTO2/100)*sueldo)   
 elif sueldo < 30000:
-    if edad>LIMITE_EDAD:
         descuento = descuento+((PORCENTAJE_DESCUENTO3/100)*sueldo)
-        print("El monto a descontar es:",descuento,"dolares")
-    elif edad<=LIMITE_EDAD:
-        descuento = descuento+((PORCENTAJE_DESCUENTO3/100)*sueldo)
-        descuento = descuento+((DESCUENTO_ADICIONAL/100)*descuento)
-        print("El monto a descontar es:",descuento,"dolares")
-else:
-    if edad>LIMITE_EDAD:
+else:    
         descuento = descuento+((PORCENTAJE_DESCUENTO4/100)*sueldo)
-        print("El monto a descontar es:",descuento,"dolares")
-    elif edad<=LIMITE_EDAD:
-        descuento = descuento+((PORCENTAJE_DESCUENTO4/100)*sueldo)
+                               
+if edad <= LIMITE_EDAD:
         descuento = descuento+((DESCUENTO_ADICIONAL/100)*descuento)
-        print("El monto a descontar es:",descuento,"dolares")                        
-    
+       
+print("El monto a descontar es:",descuento,"dolares")     

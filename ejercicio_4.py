@@ -11,13 +11,13 @@ if hora < LIMITE_INFERIOR:
 	print("La hora no puede ser negativa")
 elif hora > LIMITE_SUPERIOR: 
 	print("La hora no puede ser mayor que",LIMITE_SUPERIOR)
-elif hora<=LIMITE_MADRUGADA:
+elif hora <= LIMITE_MADRUGADA:
     print("Madrugada")
-elif hora<=LIMITE_MANIANA:
+elif hora <= LIMITE_MANIANA:
     print("Mañana")
-elif hora<=LIMITE_MEDIODIA:
+elif hora <= LIMITE_MEDIODIA:
     print("Mediodia")
-elif hora<=LIMITE_TARDE:
+elif hora <= LIMITE_TARDE:
     print("Tarde")
 else:
     print("Es de noche")                
