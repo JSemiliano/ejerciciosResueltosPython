@@ -12,8 +12,8 @@ numero = int(input("Ingrese un número positivo "))
 #else:
     #print("El número debe ser positivo te dije, que parte no entendes?")  
 
-if numero > 0:
+if numero >= 1 and numero <= 10:
     for x in range(1,11):
-        print(numero*x)
+        print(f"{numero} x {x} =",(numero*x))
 else:
-    print("El número debe ser positivo te dije, que parte no entendes?")        
+    print("El numero deber ser entre 1 y 10")        

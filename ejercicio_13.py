@@ -1,24 +1,25 @@
-USUARIO = "emi"
-CONTRA = "solis"
+CARACTER ="*"
+CARACTER = "*"
+ESPACIO = " "
+base = int(input("Ingrese un la base (impar o mayor a 1): "))
 
-usuario = input("Ingrese el usuario ")
-contraseña = input("Ingrese la contraseña ")
+while not (base > 1 and base % 2 != 0):
+    base = int(input("ERROR: Ingrese un la base (impar o mayor a 1): "))
 
-cont = 1
+espacios_iniciales = base // 2
 
-while cont < 3:
-    if usuario == USUARIO and contraseña == CONTRA:
-        print("Acceso concedido")
-        cont = 3
-    else:
-        print("-------------------")
-        print("Credenciales invalidas")
-        print("Vuelva a ingresar las credenciales")
-        print("-------------------")
-        usuario = input("Ingrese el usuario ")
-        contraseña = input("Ingrese la contraseña ")
-        cont = cont + 1
-        intentos = cont
-        if intentos == 3:
-            ("-------------------")
-            print("Cuenta bloqueada")
+for cont_caracteres in range(1,base+1,2):
+    for cont_espacios in range(espacios_iniciales):
+        print(ESPACIO,end="")
+    espacios_iniciales -= 1
+    for col in range(cont_caracteres):
+        print(CARACTER,end="")
+    print() 
+
+
+            
+
+                             
+
+
+    
