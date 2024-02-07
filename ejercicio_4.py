@@ -20,4 +20,4 @@ elif hora <= LIMITE_MEDIODIA:
 elif hora <= LIMITE_TARDE:
     print("Tarde")
 else:
-    print("Es de noche")                
+    print("Es de noche.")                

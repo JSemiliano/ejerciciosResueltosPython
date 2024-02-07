@@ -17,6 +17,6 @@ match simbolo:
         if b != 0:
             print("Resultado:",(a / b))
         else:
-            print("No se puede dividir por cero")
+            print("--No se puede dividir por cero--")
     case _:
         print("Operación invalida")            

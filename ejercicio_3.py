@@ -1,4 +1,4 @@
-monto = int(input("Ingrese un monto en dolares "))
+monto = int(input("Ingrese un monto en dolares: "))
 
 cant_100 = monto // 100
 monto = monto  % 100

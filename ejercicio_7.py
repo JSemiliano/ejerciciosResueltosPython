@@ -1,4 +1,4 @@
-numero = int(input("Ingrese un número positivo "))
+numero = int(input("Ingrese un número positivo: "))
 
 if numero > 0:
     if numero % 2 != 0:

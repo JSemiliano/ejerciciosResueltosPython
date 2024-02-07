@@ -11,8 +11,8 @@ DESCUENTO_ADICIONAL=20
 LIMITE_EDAD=30
 descuento=0
 
-edad=int(input("Ingrese la edad "))
-sueldo=float(input("Ingrese el sueldo "))
+edad=int(input("Ingrese la edad: "))
+sueldo=float(input("Ingrese el sueldo: "))
 
 if edad <= 0 and edad >= 80:
     print("Ingrese un valor valido")

@@ -1,9 +1,9 @@
 #Ingresa 20m, 14m y USD1200, debe devolver USD336000 y 204 metros de alambre.
 
 #INGRESO
-ancho = int(input("Ingrese ancho del terreno: "))
-largo = int(input("Ingrese alto del terreno: "))
-precio_m2 = float(input("Ingrese precio del terreno: "))
+ancho = int(input("Ingrese el ancho del terreno: "))
+largo = int(input("Ingrese el alto del terreno: "))
+precio_m2 = float(input("Ingrese el precio del terreno: "))
 
 pasadas = 3
 #PROCESO

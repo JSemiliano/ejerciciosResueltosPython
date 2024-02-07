@@ -1,4 +1,4 @@
-personas = int(input("Ingrese la cantidad de personas "))
+personas = int(input("Ingrese la cantidad de personas: "))
 
 #cont_per = personas
 cont = 0

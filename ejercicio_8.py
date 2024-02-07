@@ -1,4 +1,4 @@
-numero = int(input("Ingrese un número positivo "))
+numero = int(input("Ingrese un número positivo: "))
 
 #cont=1
 #Lo hice con un while porque todavia no me se la 
