@@ -4,7 +4,7 @@ ESPACIO = " "
 base = int(input("Ingrese un la base (impar o mayor a 1): "))
 
 while not (base > 1 and base % 2 != 0):
-    base = int(input("ERROR: Ingrese la base (impar o mayor a 1): "))
+    base = int(input("ERROR: Ingrese la base nuevamente (impar o mayor a 1): "))
 
 espacios_iniciales = base // 2
 
