@@ -1,7 +1,7 @@
 numero = int(input("Ingrese un numero "))
 
 while numero <= 0:
-    print("-El numero debe ser positivo-")
+    print("El numero debe ser positivo")
     numero = int(input("Ingrese un numero "))
 
 bandera = numero
