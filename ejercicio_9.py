@@ -3,10 +3,12 @@ personas = int(input("Ingrese la cantidad de personas: "))
 #cont_per = personas
 cont = 0
 porcentaje = 0
-#Lo hice con un while porque todavia no me se la 
-#sintaxis de FOR en python y se me corto el wifi,
-#cuando vuelva lo hago con un for.
-#while cont_per > 0:
+'''
+Lo hice con un while porque todavia no me se la 
+sintaxis de FOR en python y se me corto el wifi,
+cuando vuelva lo hago con un for.
+while cont_per > 0:
+'''
     #edad = int(input("Ingrese la edad "))
     #if edad >=18:
         #cont = cont + 1
